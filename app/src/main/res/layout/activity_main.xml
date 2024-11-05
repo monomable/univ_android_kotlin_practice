@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#CCCCCC">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성별 선택"
+        android:textSize="20sp"
+        android:padding="30dp"/>
+
+    <RadioButton
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여성"
+        android:layout_margin="10dp"/>
+
+    <RadioButton
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="남성"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼입니다" />
+
+    <LinearLayout
+        android:id="@+id/main2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="버튼입니다" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="버튼입니다" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="버튼입니다" />
+
+    </LinearLayout>
+
+</LinearLayout>
